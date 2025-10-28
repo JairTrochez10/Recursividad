@@ -5,7 +5,7 @@ public class Factorial {
     double sumato;
 
     public void getEcu1() {
-        for(int i=0;i<=10;i++){
+        for(int i=1;i<=10;i++){
             ecu1=2*i+1;
             sumato+= Math.pow(ecu1, 1/ecu1);
         }
